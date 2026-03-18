@@ -14,6 +14,10 @@ def media(nota):
 
 
 def aprovacao(valor):
+    if valor >= 7:
+        return True    
+    else:
+        return False
 
     
 
