@@ -22,4 +22,8 @@ def aprovacao(valor):
     
 
 def validacao(lista):
-    
+    if len(lista) == 0:
+        return print("Aprovado")
+    else:
+        return print("Reprovado")
+ 
